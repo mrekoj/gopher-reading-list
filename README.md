@@ -36,7 +36,7 @@ something else on the list to keep it at a fixed length.
 - [How to avoid Go gotchas](https://divan.github.io/posts/avoid_gotchas/)
 - [Common Gotchas in Go](https://deadbeef.me/2018/01/go-gotchas)
 - [50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs](http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/)
-- [Slice Tricks](https://github.com/golang/go/wiki/SliceTricks)
+- [Slices from the ground up](https://dave.cheney.net/2018/07/12/slices-from-the-ground-up)
 - [6 Tips for Using Strings in Go](https://www.calhoun.io/6-tips-for-using-strings-in-go/)
 - [Unofficial Go FAQ](http://www.tapirgames.com/blog/golang-unofficial-faq)
 
@@ -127,7 +127,6 @@ See [Go Books](https://github.com/dariubs/GoBooks) for a longer list of books, b
 - [Using contexts to avoid leaking goroutines](https://rakyll.org/leakingctx/)
 - [Go Concurrency Patterns: Pipelines and cancellation](https://blog.golang.org/pipelines)
 - [Tutorial: Synchronizing State with Mutexes in Go](https://kylewbanks.com/blog/tutorial-synchronizing-state-with-mutexes-golang)
-- [Context](https://peter.bourgon.org/blog/2016/07/11/context.html)
 - [Context and Cancellation of goroutines](http://dahernan.github.io/2015/02/04/context-and-cancellation-of-goroutines/)
 - [Dancing with Go's Mutexes](https://hackernoon.com/dancing-with-go-s-mutexes-92407ae927bf)
 - [GoRoutines, Channels, and Proper Exits](http://rabarar.github.io/blog/2015/02/17/goroutines-channels/)
@@ -137,6 +136,7 @@ See [Go Books](https://github.com/dariubs/GoBooks) for a longer list of books, b
 - [Sane Concurrency with Go](https://blog.mozilla.org/services/2014/03/12/sane-concurrency-with-go/)
 - [Goroutine Tracing](https://deferpanic.com/blog/goroutine-tracing/)
 - [Error handling patterns in Go](https://mijailovic.net/2017/05/09/error-handling-patterns-in-go/)
+- [Does the race detector catch all data races?](https://medium.com/@val_deleplace/does-the-race-detector-catch-all-data-races-1afed51d57fb)
 
 ### Testing
 
@@ -223,7 +223,7 @@ See [Go Books](https://github.com/dariubs/GoBooks) for a longer list of books, b
 - [Job Queues in Go - OpsDash](https://www.opsdash.com/blog/job-queues-in-go.html)
 - [Working with Files in Go](https://www.devdungeon.com/content/working-files-go)
 - [Reading files in Go](http://kgrz.io/reading-files-in-go-an-overview.html)
-- [Golang: Working with Gzip and Tar](http://blog.ralch.com/tutorial/golang-working-with-tar-and-gzip/)
+- [Vanity Go Import Paths](https://blog.bramp.net/post/2017/10/02/vanity-go-import-paths/)
 - [Tags in Golang](https://medium.com/golangspec/tags-in-golang-3e5db0b8ef3e)
 
 ## Advanced
